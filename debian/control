@@ -1,0 +1,23 @@
+Source: conmon
+Section: utils
+Priority: optional
+Maintainer: Cedric Hombourger <cedric_hombourger@mentor.com>
+Build-Depends:
+  gcc (>= 8),
+  git,
+  libc6-dev (>= 2.28),
+  libglib2.0-dev,
+  pkg-config,
+  make (>= 4.2),
+  runc
+Homepage: https://github.com/containers/conmon
+Standards-Version: 4.0.1
+Vcs-Git: https://github.com/containers/conmon
+
+Package: conmon
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: An OCI container runtime monitor.
+ Conmon is a monitoring program and communication tool between a container
+ manager (like podman or CRI-O) and an OCI runtime (like runc or crun) for
+ a single container.
