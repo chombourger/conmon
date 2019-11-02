@@ -5,7 +5,7 @@ Maintainer: Cedric Hombourger <cedric_hombourger@mentor.com>
 Build-Depends:
   gcc (>= 8),
   git,
-  libc6-dev (>= 2.28),
+  libc6-dev (>= 2.27),
   libglib2.0-dev,
   pkg-config,
   make (>= 4.2),
