@@ -3,12 +3,12 @@ Section: utils
 Priority: optional
 Maintainer: Cedric Hombourger <cedric_hombourger@mentor.com>
 Build-Depends:
-  gcc (>= 8),
+  gcc (>= 7.0),
   git,
   libc6-dev (>= 2.27),
   libglib2.0-dev,
   pkg-config,
-  make (>= 4.2),
+  make (>= 4.1),
   runc
 Homepage: https://github.com/containers/conmon
 Standards-Version: 4.0.1
