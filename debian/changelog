@@ -1,5 +1,5 @@
-conmon (2.0.2-deb10) UNRELEASED; urgency=medium
+conmon (2.0.2-bionic2) bionic; urgency=medium
 
-  * Initial package creation from upstream release 2.0.2 targeting Debian 10
+  * Initial package creation from upstream release 2.0.2 targeting bionic
 
- -- Cedric Hombourger <Cedric_Hombourger@mentor.com>  Tue, 29 Oct 2019 17:35:42 +0100
+ -- Cedric Hombourger <chombourger@gmail.com>  Tue, 29 Oct 2019 17:35:42 +0100
