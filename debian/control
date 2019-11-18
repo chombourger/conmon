@@ -1,15 +1,15 @@
 Source: conmon
 Section: utils
 Priority: optional
-Maintainer: Cedric Hombourger <cedric_hombourger@mentor.com>
-Build-Depends:
-  gcc (>= 7.0),
-  git,
-  libc6-dev (>= 2.27),
-  libglib2.0-dev,
-  pkg-config,
-  make (>= 4.1),
-  runc
+Maintainer: Cedric Hombourger <chombourger@gmail.com>
+Build-Depends: debhelper (>= 9),
+               gcc (>= 7.0),
+               git,
+               libc6-dev (>= 2.27),
+               libglib2.0-dev,
+               pkg-config,
+               make (>= 4.1),
+               runc
 Homepage: https://github.com/containers/conmon
 Standards-Version: 4.0.1
 Vcs-Git: https://github.com/containers/conmon
