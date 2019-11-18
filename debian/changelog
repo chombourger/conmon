@@ -1,5 +1,5 @@
-conmon (2.0.2-deb10) UNRELEASED; urgency=medium
+conmon (2.0.2-buster1) buster; urgency=medium
 
-  * Initial package creation from upstream release 2.0.2 targeting Debian 10
+  * Initial package creation from upstream release 2.0.2 targeting buster
 
  -- Cedric Hombourger <Cedric_Hombourger@mentor.com>  Tue, 29 Oct 2019 17:35:42 +0100
